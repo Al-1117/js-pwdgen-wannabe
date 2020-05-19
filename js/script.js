@@ -10,9 +10,15 @@ var userSurname = prompt("Qual'è il tuo cognome?");
 //chiedo il colore preferito
 var userFavouriteColour = prompt("Qual'è il tuo colore preferito?");
 
+
+// dicianove
+var dieci = 10;
+var nove = 9;
+var dicianove = dieci + nove;
+
 //password generata
 
-var generatedPassword = userName + userSurname + userFavouriteColour + "19";
+var generatedPassword = userName + userSurname + userFavouriteColour + dicianove;
 
 
 //password che apparirà nella pagina
@@ -24,7 +30,11 @@ document.getElementById("password").innerHTML = generatedPassword;
 document.getElementById("outro").innerHTML = ("Complimenti! Hai appena creato la tua insicurissima password!");
 
 
-
+// // dicianove
+// var dieci = 10;
+// var nove = 9;
+// var dicianove = dieci + nove;
+// console.log(dicianove);
 // document.getElementById("testo").innerHTML=myString;
 
 // var nome = prompt("Come ti chiami?")
