@@ -1,5 +1,5 @@
 //presentazione
-var intro = prompt ("Ciao! di seguito creamo insieme una password supercomplicata! Clicca su OK per proseguire :-)")
+alert("Ciao! Di seguito creamo insieme una password supercomplicata! Clicca su OK per proseguire :-)");
 
 //chiedo il nome all'utente
 var userName = prompt("Qual'è il tuo nome?");
